@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+@font-face {
+  font-family: "ukiranregular";
+  src: url("ukiran-webfont.woff2") format("woff2"),
+    url("ukiran-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+  border: none;
+  outline: none;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.menu ul.no-listing li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 136px;
+  height: 80px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 24px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.menu ul.no-listing li a {
+  position: relative;
+}
+
+.menu .inner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 960px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menux4 .inner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu ul.no-listing {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h3 {
+  font-family: "ukiranregular";
+  color: #8b3f2d;
+  letter-spacing: 1px;
+  font-size: 26px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+.menu ul.no-listing li img,
+.menu ul.no-listing li h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "ukiranregular";
+}
+
+.menu ul.no-listing li img {
+  display: flex;
+  max-width: 118px;
+}
+
+.menu ul.no-listing li h4,
+.hide {
+  opacity: 0;
+}
+
+.hide {
+  height: 1px;
+}
+.menu ul.listing {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.menu ul.listing li a {
+  align-items: center;
+
+  display: flex;
+}
+
+.menu ul.listing li a h4 {
+  color: #8b3f2d;
+  font-weight: bold;
+}
+
+.menu ul.listing li svg {
+  height: 28px;
+  margin-right: 12px;
+  fill: #8b3f2d;
+}
+
+.menu ul.no-listing li h4.display-on {
+  opacity: 1;
+  font-size: 14px;
+  display: flex;
+}
+
+.menu ul li.texte a {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.menu ul li.texte {
+  background: url(https://www.creapiks.net/stock_AT/new.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html body div.menu div.inner div ul.no-listing li.texte a h4.display-on {
+  font-size: 20px;
+}
+
+.menu h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 42px;
+  font-size: 60px;
+  color: #b59247;
+  font-family: "ukiranregular";
+  letter-spacing: 2px;
+  margin-bottom: 42px;
+}
+
+.menu .full-width {
+  width: 100%;
+  background-color: #8b3f2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  background: url(https://www.creapiks.net/stock_AT/new.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 292px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu .full-width a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+}
+
+.menu .full-width h4 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+h4.mid-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  color: #8b3f2d;
+  font-family: "ukiranregular";
+  font-size: 24px;
+}
+
+.full-width-styleV2 {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  max-width: 292px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-width-styleV2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+}
+
+.full-width-styleV2 a h4 {
+  color: #8b3f2d;
+  font-weight: bold;
+}
+
+ul.flex {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li:hover {
+  opacity: 0.8;
+}
+
+ul.listing li {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  padding: 16px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.margin-12 {
+  margin-top: 12px;
+}
+
+.listing-double {
+  display: flex;
+}
+
+.full-width-styleV3 {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 12px;
+  max-width: 292px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu ul.no-listing .listing-double li {
+  height: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 24px;
+  box-shadow: none;
+  padding-left: 24px;
+  text-align: left;
+  justify-content: left;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.menu ul.no-listing .listing-double {
+  margin-bottom: 24px;
+}
+.listing-double ul {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.listing-double ul a {
+  color: #8b3f2d;
+  font-weight: bold;
+}
+
+.full-width-styleV3 img {
+  width: 80%;
+  max-width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+img.image-spe {
+  max-height: 62px;
+}
